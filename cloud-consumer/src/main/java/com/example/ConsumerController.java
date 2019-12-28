@@ -1,5 +1,9 @@
 package com.example;
 
+import com.vanke.common.feign.FeignAutoConfiguration;
+import com.vanke.common.tracer.TracerHelper;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.cloud.client.ServiceInstance;
@@ -11,7 +15,7 @@ import org.springframework.web.client.RestTemplate;
 
 @RestController
 public class ConsumerController {
-
+    static final Logger logger = LoggerFactory.getLogger(ConsumerController.class);
     @Autowired
     private LoadBalancerClient loadBalancerClient;
     @Autowired
@@ -41,7 +45,18 @@ public class ConsumerController {
      */
     @GetMapping("/echo/remote/{appname}")
     public String echoRemoteAppname(@PathVariable("appname") String appname){
+        logger.info("controller tracer : {}", TracerHelper.create().get());
        return this.echoService.echo(appname);
+    }
+
+
+    /**
+     * 通过带有负载均衡的RestTemplate 和 FeignClient 也是可以访问的
+     * @return
+     */
+    @GetMapping("/echo/{appname}")
+    public String echoPerfTest(@PathVariable("appname") String appname){
+        return appname;
     }
 
 }
