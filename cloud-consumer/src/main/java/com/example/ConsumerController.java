@@ -13,6 +13,8 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
 
+import java.util.UUID;
+
 @RestController
 public class ConsumerController {
     static final Logger logger = LoggerFactory.getLogger(ConsumerController.class);
@@ -45,6 +47,7 @@ public class ConsumerController {
      */
     @GetMapping("/echo/remote/{appname}")
     public String echoRemoteAppname(@PathVariable("appname") String appname){
+        logger.info("thread id: {}", Thread.currentThread().getId());
         logger.info("controller tracer : {}", TracerHelper.create().get());
        return this.echoService.echo(appname);
     }

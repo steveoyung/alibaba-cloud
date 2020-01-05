@@ -1,6 +1,7 @@
-package com.example;
+package com.example.controller;
 import com.alibaba.csp.sentinel.annotation.SentinelResource;
 import com.alibaba.csp.sentinel.slots.block.BlockException;
+import com.example.ExceptionUtil;
 import com.example.service.EchoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
@@ -64,7 +65,7 @@ public class SentinelController {
 
 
     //读取json文件完成限流
-    @SentinelResource(value = "resource2", blockHandler = "handleException2", blockHandlerClass = {ExceptionUtil.class})
+    @SentinelResource(value = "resource3", blockHandler = "handleException2", blockHandlerClass = {ExceptionUtil.class})
     @RequestMapping("/sentinel/test3")
     public Map<String,Object> test3() {
         Map<String,Object> map=new HashMap<>();

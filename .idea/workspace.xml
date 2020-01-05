@@ -4,24 +4,32 @@
     <list default="true" id="3a4cdeee-7a02-404a-b084-9cfd4effca76" name="Default" comment="">
       <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-common/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-common/src/main/java/com/vanke/common/feign/FeignAutoConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-common/src/main/java/com/vanke/common/filter/TracerFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-common/src/main/java/com/vanke/common/tracer/TracerHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-common/src/main/java/com/vanke/common/tracer/TracerIDGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-common/src/main/java/com/vanke/common/tracer/TracerKey.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-common/src/main/java/com/vanke/common/hystrix/TestCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-common/src/main/java/com/vanke/common/hystrix/UserExceptionCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-common/src/main/java/com/vanke/common/hystrix/UserTimeOutCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-common/src/main/java/com/vanke/common/logger/LoggerFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-common/src/main/java/com/vanke/common/logger/XLoggerDecoration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-common/src/main/java/com/vanke/common/tracer/RequestContextHolder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-common/src/main/java/com/vanke/common/tracer/RequestTracer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-sentinel/src/main/java/com/example/NacosConfigDataListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-sentinel/src/main/java/com/example/controller/NacosController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-sentinel/src/main/resources/logback-spring.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-client/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-client/src/main/java/com/example/CloudClientApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-client/src/main/java/com/example/CloudClientApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-client/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-client/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-common/src/main/java/com/vanke/common/feign/FeignAutoConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-common/src/main/java/com/vanke/common/feign/FeignAutoConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-common/src/main/java/com/vanke/common/filter/TracerFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-common/src/main/java/com/vanke/common/filter/TracerFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-common/src/main/java/com/vanke/common/tracer/TracerHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-common/src/main/java/com/vanke/common/tracer/TracerHelper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cloud-consumer/src/main/java/com/example/CloudConsumerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer/src/main/java/com/example/CloudConsumerApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cloud-consumer/src/main/java/com/example/ConsumerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer/src/main/java/com/example/ConsumerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumer/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer/src/main/resources/bootstrap.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer/src/main/resources/bootstrap.properties" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer/src/main/resources/bootstrap.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-sentinel/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-sentinel/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-sentinel/src/main/java/com/example/CloudSentinelApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-sentinel/src/main/java/com/example/CloudSentinelApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-sentinel/src/main/java/com/example/SentinelController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-sentinel/src/main/java/com/example/controller/SentinelController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-sentinel/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-sentinel/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-sentinel/src/main/resources/flowrule.json" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-sentinel/src/main/resources/flowrule.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -50,8 +58,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -92,13 +100,18 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/cloud-client" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/cloud-sentinel/src/main/resources" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\data-opensource\alibaba-cloud\cloud-sentinel\src\main\resources" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -112,14 +125,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CloudConsumerApplication">
+  <component name="RunManager" selected="Application.CloudSentinelApplication">
     <configuration name="CloudClientApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.CloudClientApplication" />
       <module name="cloud-client" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.*" />
+          <option name="PATTERN" value="com.example.controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,7 +146,21 @@
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.*" />
+          <option name="PATTERN" value="com.example.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CloudSentinelApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.CloudSentinelApplication" />
+      <module name="cloud-sentinel" />
+      <option name="VM_PARAMETERS" value="-Dcsp.sentinel.dashboard.server=192.168.191.101:9999 -Dproject.name=service-sentinel" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -163,8 +190,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.CloudClientApplication" />
+      <item itemvalue="Application.CloudConsumerApplication" />
+      <item itemvalue="Application.CloudSentinelApplication" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CloudSentinelApplication" />
         <item itemvalue="Application.CloudClientApplication" />
         <item itemvalue="Application.CloudConsumerApplication" />
       </list>
@@ -195,7 +228,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -224,26 +259,56 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/cloud-consumer/src/main/java/com/example/ConsumerController.java</url>
-          <line>34</line>
+          <line>36</line>
           <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/cloud-consumer/src/main/java/com/example/ConsumerController.java</url>
-          <line>35</line>
+          <line>37</line>
           <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/cloud-common/src/main/java/com/vanke/common/feign/FeignAutoConfiguration.java</url>
-          <line>25</line>
-          <option name="timeStamp" value="14" />
+          <url>file://$PROJECT_DIR$/cloud-consumer/src/main/java/com/example/ConsumerController.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="26" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/cloud-common/src/main/java/com/vanke/common/filter/TracerFilter.java</url>
-          <line>29</line>
-          <option name="timeStamp" value="18" />
+          <url>jar://$MAVEN_REPOSITORY$/io/github/openfeign/feign-hystrix/9.5.1/feign-hystrix-9.5.1-sources.jar!/feign/hystrix/HystrixInvocationHandler.java</url>
+          <line>107</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/io/github/openfeign/feign-hystrix/9.5.1/feign-hystrix-9.5.1-sources.jar!/feign/hystrix/HystrixInvocationHandler.java</url>
+          <line>121</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/io/github/openfeign/feign-hystrix/9.5.1/feign-hystrix-9.5.1-sources.jar!/feign/hystrix/HystrixInvocationHandler.java</url>
+          <line>158</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/netflix/hystrix/hystrix-core/1.5.12/hystrix-core-1.5.12.jar!/com/netflix/hystrix/HystrixCommand.class</url>
+          <line>142</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/netflix/hystrix/hystrix-core/1.5.12/hystrix-core-1.5.12.jar!/com/netflix/hystrix/HystrixCommand.class</url>
+          <line>139</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cloud-sentinel/src/main/java/com/example/NacosConfigDataListener.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="44" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="mavContainer" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />

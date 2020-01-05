@@ -25,7 +25,6 @@ public class CloudConsumerApplication {
     @LoadBalanced
     @Bean
     public RestTemplate restTemplate(){
-
         return new RestTemplate();
     }
 
